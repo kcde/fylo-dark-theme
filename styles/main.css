@@ -17,7 +17,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: var(--main-blue);
   color: white;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.4;
 }
 p {
@@ -34,13 +34,13 @@ header nav {
   font-weight: 700;
 }
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
 }
 h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 a {
   text-decoration: none;
@@ -53,12 +53,12 @@ img {
 
 .btn {
   border: none;
-  padding: 18px 70px;
-  border-radius: 50px;
+  padding: 1.125rem 4.375rem;
+  border-radius: 3.125rem;
   cursor: pointer;
 }
 .cta {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   color: white;
   background: linear-gradient(
@@ -72,7 +72,7 @@ img {
 .container {
   width: 85%;
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 64rem;
 }
 .flex {
   display: flex;
@@ -88,9 +88,9 @@ header {
 .header {
   justify-content: space-between;
   align-items: center;
-  font-size: 14px;
-  padding-top: 24px;
-  padding-bottom: 50px;
+  font-size: 0.875rem;
+  padding-top: 1.5rem;
+  padding-bottom: 3.125rem;
 }
 .logo-container {
   flex: 1;
@@ -114,67 +114,67 @@ header {
   background-size: 130%;
 }
 .hero-img-container {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .hero-img {
   width: 80%;
 }
 .hero-head h1 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .hero-message {
   background: var(--main-blue);
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 .hero-text {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 /* FEATURES STYLES */
 .features {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
 }
 .feature-card {
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 .feature-img {
-  width: 73px;
-  margin-bottom: 30px;
+  width: 4.5625rem;
+  margin-bottom: 1.875rem;
 
   vertical-align: top;
-  height: 55px;
+  height: 3.4375rem;
 }
 
 .feature-head {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 /* EXTRAS STYLES */
 .extras {
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 .extras-container {
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 .extras-head {
   text-align: center;
-  font-size: 19.2px;
-  margin-bottom: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 0.625rem;
 }
 .extras-img-container {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 .extras-text p {
-  margin-bottom: 13px;
+  margin-bottom: 0.8125rem;
 }
 .extras-cta {
   color: var(--cyan-accent);
-  border-bottom: 1px solid var(--cyan-accent);
-  padding-bottom: 4px;
+  border-bottom: 0.0625rem solid var(--cyan-accent);
+  padding-bottom: 0.25rem;
 }
 .extras-cta i {
-  margin-left: 3px;
+  margin-left: 0.1875rem;
 }
 /* TESTIMONIALS STYLES */
 
@@ -182,52 +182,52 @@ header {
   background-image: url(../images/bg-quotes.png);
   background-repeat: no-repeat;
   background-position: 9% 6%;
-  padding-top: 4rem;
+  padding-top: 64px;
   background-size: 7%;
-  margin-bottom: 150px;
+  margin-bottom: 9.375rem;
 }
 .testimonial {
   background: var(--testimonial-blue);
-  padding: 16px;
-  border-radius: 10px;
+  padding: 1rem;
+  border-radius: 0.625rem;
 }
 .testimonial:not(:last-child) {
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 .user-img {
   display: inline;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .testimonial-text {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
   line-height: 2;
 }
 .user-details {
   display: inline-block;
 }
 .user-img img {
-  width: 35px;
+  width: 2.1875rem;
   border-radius: 50%;
   vertical-align: bottom;
 }
 .user-name {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .user-prof {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 /* CTA BOX STYLES */
 .cta-box {
-  margin-bottom: -120px;
+  margin-bottom: -7.5rem;
   position: relative;
 }
 .cta-box-container {
   text-align: center;
   background: var(--ie-blue);
-  padding: 1.5rem;
-  box-shadow: 0 10px 20px var(--footer-blue);
-  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 0.625rem 1.25rem var(--footer-blue);
+  border-radius: 0.625rem;
 }
 
 .form {
@@ -235,29 +235,29 @@ header {
   flex-direction: column;
 }
 .box-head {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .box-text {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 #email {
   display: block;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   border: none;
-  padding: 15px 24px;
-  margin-bottom: 18px;
+  padding: 0.9375rem 1.5rem;
+  margin-bottom: 1.125rem;
 }
 form label {
   display: none;
 }
 #submit-btn {
-  padding: 15px 0 15px 0;
+  padding: 0.9375rem 0 0.9375rem 0;
   border: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   color: white;
   background: linear-gradient(
     to right,
@@ -268,46 +268,46 @@ form label {
 /* footer styles */
 .footer {
   background-color: var(--footer-blue);
-  padding-top: 190px;
+  padding-top: 11.875rem;
 }
 .footer i {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .footer-logo img {
   width: 50%;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 .footer-nav {
   display: flex;
   flex-direction: column;
 }
 .footer-nav a:not(:last-child) {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .footer-nav:first-child {
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 .socials {
   text-align: center;
 }
 .socials i {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .grid-1 {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .phone {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .grid-2 {
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 .grid-4 {
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
   /* HERO STYLES */
 
   .hero-container {
@@ -315,43 +315,43 @@ form label {
     background-position: center 70%;
   }
   .hero-message {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 
   .hero-head h1 {
-    font-size: 48px;
-    padding-bottom: 20px;
+    font-size: 3rem;
+    padding-bottom: 1.25rem;
   }
   .hero-text {
-    font-size: 24px;
-    margin-bottom: 40px;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .btn {
-    padding: 30px 140px;
+    padding: 1.875rem 8.75rem;
   }
 
   /* FEATURES STYLES */
   .feature-card {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .feature-head {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .feature-text {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   /* EXTRAS STYLES */
   .extras-head {
-    font-size: 36.8px;
+    font-size: 2.3rem;
   }
   .extras-text {
-    font-size: 27px;
+    font-size: 1.6875rem;
   }
   .extras-cta {
-    font-size: 16px;
+    font-size: 1rem;
   }
   /* TESTIMONIAL STYLES */
   .testimonials {
@@ -362,28 +362,28 @@ form label {
     width: 70%;
   }
   .testimonial-text {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .user-img {
-    width: 38px;
+    width: 2.375rem;
   }
   .user-name {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   /* CTA BOX STYLES */
   .box-head {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .box-text {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   /* FOOTER */
   .footer {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   /* HEADER STYLES */
   .logo-container {
     flex: 3;
@@ -396,13 +396,13 @@ form label {
     background-image: url(../images/bg-curvy-desktop.svg);
     background-size: 100%;
     background-position: center bottom;
-    padding-bottom: 70px;
+    padding-bottom: 4.375rem;
   }
   .hero-message {
     background: none;
   }
   .hero-text {
-    font-size: 2rem;
+    font-size: 32px;
   }
 
   /* FEATURES STYLES */
@@ -411,19 +411,19 @@ form label {
     align-items: center;
   }
   .feature-head {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .feature-text {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .feature-card {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 64px;
+    padding-right: 64px;
     margin-bottom: 0;
     flex: 1;
   }
   .features-row:first-child {
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
   }
   /* EXTRAS STYLES */
   .extras {
@@ -442,7 +442,7 @@ form label {
     text-align: left;
   }
   .extras-text {
-    font-size: 16px;
+    font-size: 1rem;
   }
   /* TESTIMONIALS STYLES */
   .testimonial:not(:last-child) {
@@ -451,13 +451,13 @@ form label {
   .testimonials-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-gap: 1.875rem;
   }
   .testimonial-text {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .user-name {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .testimonials {
     background-position: 16% 8%;
@@ -466,7 +466,8 @@ form label {
   }
   /* CTA BOX STYLES */
   .cta-box-container {
-    padding: 2.5rem;
+    padding: 40px;
+    width: 50%;
   }
   .form {
     flex-direction: row;
@@ -479,20 +480,23 @@ form label {
   }
   #submit-btn {
     width: 20%;
-    font-size: 10px;
+    font-size: 0.625rem;
     width: 25%;
+  }
+  .box-text {
+    font-size: 1rem;
   }
 
   /* footer */
   .footer {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .grid-container {
     display: flex;
   }
   .grid-1 {
     flex: 3;
-    margin-right: 35px;
+    margin-right: 2.1875rem;
   }
   .grid-2 {
     flex: 2;
