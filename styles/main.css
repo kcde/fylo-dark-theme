@@ -1,0 +1,509 @@
+/* RALEWAY FONT */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+/* OPEN SANS FONT */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+:root {
+  --ie-blue: hsl(217, 28%, 15%);
+  --main-blue: hsl(218, 28%, 13%);
+  --footer-blue: hsl(216, 53%, 9%);
+  --testimonial-blue: hsl(219, 30%, 18%);
+  --cyan-accent: hsl(176, 68%, 64%);
+  --blue--accent: hsl(198, 60%, 50%);
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--main-blue);
+  color: white;
+  font-size: 14px;
+  line-height: 1.4;
+}
+p {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+header nav {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  padding: 18px 70px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.cta {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(
+    to right,
+    var(--cyan-accent),
+    var(--blue--accent)
+  );
+}
+
+/* HELPER CLASSES */
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.flex {
+  display: flex;
+}
+.ai-b {
+  align-items: baseline;
+}
+
+/* HEADER STYLES */
+header {
+  background-color: var(--testimonial-blue);
+}
+.header {
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  padding-top: 24px;
+  padding-bottom: 50px;
+}
+.logo-container {
+  flex: 1;
+}
+.logo {
+  width: 50%;
+}
+.main-nav {
+  flex: 1;
+  justify-content: space-between;
+}
+/* HERO STYLES */
+.hero {
+  text-align: center;
+}
+.hero-container {
+  background: var(--testimonial-blue);
+  background-image: url(../images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: 130%;
+}
+.hero-img-container {
+  margin-bottom: 20px;
+}
+.hero-img {
+  width: 80%;
+}
+.hero-head h1 {
+  font-size: 20px;
+}
+
+.hero-message {
+  background: var(--main-blue);
+  padding-top: 20px;
+}
+.hero-text {
+  margin-bottom: 30px;
+}
+/* FEATURES STYLES */
+.features {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.feature-card {
+  margin-bottom: 70px;
+}
+.feature-img {
+  width: 73px;
+  margin-bottom: 30px;
+
+  vertical-align: top;
+  height: 55px;
+}
+
+.feature-head {
+  margin-bottom: 10px;
+}
+/* EXTRAS STYLES */
+.extras {
+  margin-bottom: 100px;
+}
+.extras-container {
+  margin-bottom: 100px;
+}
+.extras-head {
+  text-align: center;
+  font-size: 19.2px;
+  margin-bottom: 10px;
+}
+.extras-img-container {
+  margin-bottom: 50px;
+}
+.extras-text p {
+  margin-bottom: 13px;
+}
+.extras-cta {
+  color: var(--cyan-accent);
+  border-bottom: 1px solid var(--cyan-accent);
+  padding-bottom: 4px;
+}
+.extras-cta i {
+  margin-left: 3px;
+}
+/* TESTIMONIALS STYLES */
+
+.testimonials {
+  background-image: url(../images/bg-quotes.png);
+  background-repeat: no-repeat;
+  background-position: 9% 6%;
+  padding-top: 4rem;
+  background-size: 7%;
+  margin-bottom: 150px;
+}
+.testimonial {
+  background: var(--testimonial-blue);
+  padding: 16px;
+  border-radius: 10px;
+}
+.testimonial:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.user-img {
+  display: inline;
+  margin-right: 10px;
+}
+.testimonial-text {
+  margin-bottom: 24px;
+  line-height: 2;
+}
+.user-details {
+  display: inline-block;
+}
+.user-img img {
+  width: 35px;
+  border-radius: 50%;
+  vertical-align: bottom;
+}
+.user-name {
+  font-size: 16px;
+}
+.user-prof {
+  font-size: 10px;
+}
+/* CTA BOX STYLES */
+.cta-box {
+  margin-bottom: -120px;
+  position: relative;
+}
+.cta-box-container {
+  text-align: center;
+  background: var(--ie-blue);
+  padding: 1.5rem;
+  box-shadow: 0 10px 20px var(--footer-blue);
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.box-head {
+  font-size: 20px;
+}
+.box-text {
+  margin-bottom: 30px;
+}
+
+#email {
+  display: block;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 24px;
+  margin-bottom: 18px;
+}
+form label {
+  display: none;
+}
+#submit-btn {
+  padding: 15px 0 15px 0;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 30px;
+  color: white;
+  background: linear-gradient(
+    to right,
+    var(--cyan-accent),
+    var(--blue--accent)
+  );
+}
+/* footer styles */
+.footer {
+  background-color: var(--footer-blue);
+  padding-top: 190px;
+}
+.footer i {
+  margin-right: 20px;
+}
+.footer-logo img {
+  width: 50%;
+  margin-bottom: 25px;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+.footer-nav a:not(:last-child) {
+  margin-bottom: 16px;
+}
+.footer-nav:first-child {
+  margin-bottom: 70px;
+}
+.socials {
+  text-align: center;
+}
+.socials i {
+  font-size: 18px;
+}
+.grid-1 {
+  margin-bottom: 16px;
+}
+.phone {
+  margin-bottom: 16px;
+}
+.grid-2 {
+  margin-bottom: 48px;
+}
+.grid-4 {
+  margin-bottom: 50px;
+}
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+  /* HERO STYLES */
+
+  .hero-container {
+    background-size: 145%;
+    background-position: center 70%;
+  }
+  .hero-message {
+    margin-bottom: 40px;
+  }
+
+  .hero-head h1 {
+    font-size: 48px;
+    padding-bottom: 20px;
+  }
+  .hero-text {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .btn {
+    padding: 30px 140px;
+  }
+
+  /* FEATURES STYLES */
+  .feature-card {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .feature-head {
+    font-size: 32px;
+  }
+  .feature-text {
+    font-size: 24px;
+  }
+
+  /* EXTRAS STYLES */
+  .extras-head {
+    font-size: 36.8px;
+  }
+  .extras-text {
+    font-size: 27px;
+  }
+  .extras-cta {
+    font-size: 16px;
+  }
+  /* TESTIMONIAL STYLES */
+  .testimonials {
+    background-position: 17% 4%;
+    background-size: 5%;
+  }
+  .testimonials-container {
+    width: 70%;
+  }
+  .testimonial-text {
+    font-size: 24px;
+  }
+  .user-img {
+    width: 38px;
+  }
+  .user-name {
+    font-size: 20px;
+  }
+  /* CTA BOX STYLES */
+  .box-head {
+    font-size: 24px;
+  }
+  .box-text {
+    font-size: 24px;
+  }
+  /* FOOTER */
+  .footer {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* HEADER STYLES */
+  .logo-container {
+    flex: 3;
+  }
+  .logo {
+    width: 20%;
+  }
+  /* HERO STYLES */
+  .hero-container {
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-size: 100%;
+    background-position: center bottom;
+    padding-bottom: 70px;
+  }
+  .hero-message {
+    background: none;
+  }
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  /* FEATURES STYLES */
+  .features-row {
+    display: flex;
+    align-items: center;
+  }
+  .feature-head {
+    font-size: 24px;
+  }
+  .feature-text {
+    font-size: 18px;
+  }
+  .feature-card {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 0;
+    flex: 1;
+  }
+  .features-row:first-child {
+    margin-bottom: 70px;
+  }
+  /* EXTRAS STYLES */
+  .extras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .extras-img-container {
+    width: 45%;
+    margin-bottom: 0;
+  }
+  .extras-message {
+    width: 45%;
+  }
+  .extras-head {
+    text-align: left;
+  }
+  .extras-text {
+    font-size: 16px;
+  }
+  /* TESTIMONIALS STYLES */
+  .testimonial:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  .testimonial-text {
+    font-size: 14px;
+  }
+  .user-name {
+    font-size: 14px;
+  }
+  .testimonials {
+    background-position: 16% 8%;
+
+    background-size: 4%;
+  }
+  /* CTA BOX STYLES */
+  .cta-box-container {
+    padding: 2.5rem;
+  }
+  .form {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #email {
+    margin-bottom: 0;
+    width: 70%;
+  }
+  #submit-btn {
+    width: 20%;
+    font-size: 10px;
+    width: 25%;
+  }
+
+  /* footer */
+  .footer {
+    font-size: 16px;
+  }
+  .grid-container {
+    display: flex;
+  }
+  .grid-1 {
+    flex: 3;
+    margin-right: 35px;
+  }
+  .grid-2 {
+    flex: 2;
+  }
+  .grid-3 {
+    flex: 1;
+  }
+  .grid-4 {
+    flex: 1;
+  }
+  .grid-5 {
+    flex: 1;
+  }
+}
